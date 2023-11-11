@@ -1,5 +1,6 @@
 import java.util.Scanner;
 public class EX_Linear3 {
+	
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
@@ -14,6 +15,7 @@ public class EX_Linear3 {
 		
 		difference = A * B - C * D;
 		System.out.print("> DIFFERENCE: " + difference);
+		
 		sc.close();
 	}
 
