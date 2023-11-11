@@ -18,6 +18,8 @@ public class EX_Linear5 {
 		value2 = sc.nextFloat();
 		
 		total = (float) qtd1 * value1 + qtd2 * value2;
+		System.out.println("> CODE OF PRODUCT ONE: " + code1);
+		System.out.println("> CODE OF PRODUCT TWO: " + code2);
 		System.out.printf("> AMOUNT TO BE PAID: R$ %.2f", total);
 		
 		sc.close();
