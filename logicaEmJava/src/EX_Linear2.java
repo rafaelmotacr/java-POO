@@ -1,8 +1,10 @@
 import java.util.Scanner;
+import java.util.Locale;
 public class EX_Linear2 {
 
 	public static void main(String[] args) {
 		
+		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		float pi = 3.14159f;
 		float area;
@@ -13,7 +15,6 @@ public class EX_Linear2 {
 		
 		area = (float) (pi * Math.pow(radius, 2));
 		System.out.printf("> A = %.4f", area);
-		System.out.print("OI");
 		
 		sc.close();
 	}

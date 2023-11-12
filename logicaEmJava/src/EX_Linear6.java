@@ -1,8 +1,10 @@
 import java.util.Scanner;
+import java.util.Locale;
 public class EX_Linear6 {
 
 	public static void main(String[] args) {
 		
+		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		float A, B, C;
 		float pi = 3.14159f;
