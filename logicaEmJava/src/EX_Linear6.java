@@ -18,10 +18,10 @@ public class EX_Linear6 {
 		B = sc.nextFloat();
 		C = sc.nextFloat();
 		
-		triangleArea = (A * C) / 2; // Base multiplied by height and divided by two 
-		circleArea = pi * (float) Math.pow(C, 2); // pi multiplied by the radius raised by two
+		triangleArea = A * C / 2; // Base multiplied by height and divided by two 
+		circleArea = pi * C * C; // pi multiplied by the radius raised by two
 		trapezoidArea = ((A + B) * C) / 2 ; // area = side a and side b (both bases) multiplied by height and divided by two
-		squareArea = (float) Math.pow(B, 2); // Side raised by two
+		squareArea = B * B; // Side raised by two
 		rectangleArea = A * B; // width * length
 		
 		System.out.printf("> TRIANGLE: %.3f.\n", triangleArea);
