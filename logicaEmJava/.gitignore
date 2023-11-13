@@ -6,7 +6,6 @@
 *.zip
 *.tar.gz
 *.rar
-*./.metadata
 *./.settings
 */bin/
 
