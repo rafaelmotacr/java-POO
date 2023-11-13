@@ -12,16 +12,13 @@ public class EX_For3 {
 		
 		for(int i = 0; i < lim; i++) {
 			
-			int n1 = sc.nextInt();
-			int n2 = sc.nextInt();
+			double n1 = sc.nextDouble();
+			double n2 = sc.nextDouble();
+			double n3 = sc.nextDouble();
 			
-			if(n2 == 0) {
-				System.out.println("divisao imposivel");
-				
-			}else {
-				System.out.println((double) n1 / n2);
-			}
+			double average = (n1 * 2.0 + n2 * 3.0 + n3 * 5.0) / 10.0;
 			
+			System.out.printf("%.1f%n", average);
 		}
 		
 		sc.close();
