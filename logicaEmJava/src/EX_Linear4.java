@@ -13,8 +13,10 @@ public class EX_Linear4 {
 		
 		System.out.print("> Enter Your Employe Num: ");
 		empNum = sc.nextInt();
+		
 		System.out.print("> Enter Your Worked Hours: ");
 		workedHours = sc.nextInt();
+		
 		System.out.print("> Enter Your Hourly Rate: ");
 		hourlyRate = sc.nextFloat();
 		
